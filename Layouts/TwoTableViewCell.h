@@ -20,9 +20,7 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *thirdLabelHeightConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *fifthLabelHeightConstraint;
 
-
--(void)updateExpState:(BOOL)state;
-
--(void)show2nd:(BOOL)beShow2nd;
+- (void)updateExpState:(BOOL)state;
+- (void)show2nd:(BOOL)beShow2nd;
 
 @end

@@ -177,6 +177,7 @@
                                             <outlet property="thirdLabelHeightConstraint" destination="Krx-45-42M" id="8YW-cP-f1I"/>
                                             <outlet property="threeLabelHeightConstraint" destination="n5x-7h-YEY" id="YpN-Jd-Zby"/>
                                             <outlet property="twoContainerViewHeightConstraint" destination="fN5-sa-vSv" id="SqL-Aa-hiS"/>
+                                            <outlet property="twoTopToOneConstraint" destination="lIa-UC-D7A" id="vWC-hq-oHe"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -189,7 +190,7 @@
                                 </constraints>
                                 <state key="normal" title="Exp"/>
                                 <connections>
-                                    <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TDp-0r-DXa"/>
+                                    <action selector="expandAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W8T-Mb-fgj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bH-ha-tlE">
@@ -198,7 +199,7 @@
                                 <color key="backgroundColor" red="0.36319087903211889" green="1" blue="0.56595154775876089" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="show2"/>
                                 <connections>
-                                    <action selector="tapshow2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFz-5y-fLD"/>
+                                    <action selector="tapshowPart2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="veI-7Q-O4r"/>
                                 </connections>
                             </button>
                         </subviews>

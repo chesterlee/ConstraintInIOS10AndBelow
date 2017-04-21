@@ -8,6 +8,12 @@
 
 #import "TwoTableViewCell.h"
 
+@interface TwoTableViewCell ()
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *twoTopToOneConstraint;
+
+@end
+
+
 @implementation TwoTableViewCell
 
 - (void)awakeFromNib {
@@ -42,6 +48,16 @@
 
 -(void)show2nd:(BOOL)beShow2nd{
     
+    if (beShow2nd)
+    {
+        self.twoContainerViewHeightConstraint.constant = 10.0f;
+        self.twoTopToOneConstraint.constant = 16.0f;
+    }
+    else
+    {
+        self.twoContainerViewHeightConstraint.constant = 0;
+        self.twoTopToOneConstraint.constant = 0;
+    }
 }
 
 
